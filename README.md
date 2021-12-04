@@ -4,7 +4,7 @@ We generated some fake packets which do not belong to conventional internet traf
 
 ## Network Reconnaissance on Blacklists
 
-1. Proceeding over the same idea, we just glanced over some techniques to get some holistic idea of blacklisted IPs. We developed a simple python script which would give a graph diagram to get more idea on how those Blacklisted IPs/subnets are connected over to DNS servers. The following script is mentioned in [blacklist-subnet-connection.py](https://github.com/rishitsaiya/network-flow-graph-scripts/blob/main/Scripts/blacklist-subnet-connection.py) <br>
+1. Proceeding over the same idea, we just glanced over some techniques to get some holistic idea of blacklisted IPs. We developed a simple python script which would give a graph diagram to get more idea on how those Blacklisted IPs/subnets are connected over to DNS servers. The following script is mentioned in [blacklist-subnet-connection.py](https://github.com/nikunjpansari/network-flow-graph-scripts/tree/main/Scripts/blacklist-subnet-connection.py) <br>
 *Steps to run:* `python3 blacklist-subnet-connection.py`
 
 2. We tried the following example where we tried to include the Attacker Blacklisted IP address in the hosts array. The following script is mentioned in [destination_ip.py](https://github.com/rishitsaiya/network-flow-graph-scripts/blob/main/Scripts/destination_ip.py) <br>
